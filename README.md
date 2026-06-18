@@ -1,6 +1,6 @@
 # Existencia cartas
 
-Repositorio Cartas IGM DSS v1
+_(sin descripción)_
 
 Mapa web publicado con **GitMap** (plugin de QGIS).
 
