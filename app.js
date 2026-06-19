@@ -1,4 +1,4 @@
-window.GM_CONFIG = {"title": "Existencia cartas", "description": "", "crsName": "EPSG:32719 — WGS 84 / UTM zone 19S", "basemap": "osm", "colors": {"primary": "#2c7fb8", "accent": "#f03b20"}, "logo": null, "controls": {"zoom": true, "pan": true, "scale": true, "legend": true, "layers": true, "locate": false, "measure": false, "fullscreen": true, "minimap": false}, "bounds": [[-20.40637476286704, -73.29599916532321], [-18.263252883878746, -68.8988371058756]], "layers": [{"id": "Rehecho_f96c9dc6_16f7_4e1a_a5d3_347f618b3ac2", "name": "Rehecho", "kind": "vector", "src": "data/layer_0.js", "dataVar": "GM_LAYER_0", "style": {"geom": "point", "mode": "single", "field": null, "single": {"fill": "#c43c39", "fillOpacity": 1.0, "stroke": "#232323", "weight": 1, "opacity": 1.0, "radius": 4}, "categories": []}, "popupFields": ["fid", "nombre_limpio", "Nombre carta", "Existencia Compra", "Cantidad Shp", "Cantidad Geotiff", "Cantidad JPG", "Cantidad Papel ", "Seccion", "X_ESTE_MIN", "X_ESTE_MAX", "Y_NORTE_1_MIN", "Y_NORTE_1_MAX", "Proyeccion", "Id", "Huso", "Datum ", "Elipsoide", "Escala ", "Codigo Producto IGM", "Hipervinculo "], "visible": true}, {"id": "Puntos_a_partir_de_tabla_1cce2b31_b699_4315_9b51_5b9cf4101773", "name": "Huso 18", "kind": "vector", "src": "data/layer_1.js", "dataVar": "GM_LAYER_1", "style": {"geom": "point", "mode": "single", "field": null, "single": {"fill": "#e6111f", "fillOpacity": 1.0, "stroke": "#232323", "weight": 1, "opacity": 1.0, "radius": 4}, "categories": []}, "popupFields": ["fid", "Nombre id", "Id", "Nombre carta", "Seccion", "X_ESTE_MIN", "X_ESTE_MAX", "Y_NORTE_1_MIN", "Y_NORTE_1_MAX", "Proyeccion", "Huso", "Datum ", "Elipsoide", "Escala ", "Codigo Producto IGM", "Existencia Compra", "Cantidad Shp", "Cantidad JPG", "Cantidad Geotiff", "Cantidad Papel "], "visible": true}, {"id": "Puntos_a_partir_de_tabla_38b44a5f_75e2_4680_9c71_e8fc08d27897", "name": "Huso 19", "kind": "vector", "src": "data/layer_2.js", "dataVar": "GM_LAYER_2", "style": {"geom": "point", "mode": "single", "field": null, "single": {"fill": "#49d7a3", "fillOpacity": 1.0, "stroke": "#232323", "weight": 1, "opacity": 1.0, "radius": 5}, "categories": []}, "popupFields": ["fid", "Id", "Nombre carta", "Seccion", "X_ESTE_MIN", "X_ESTE_MAX", "Y_NORTE_1_MIN", "Y_NORTE_1_MAX", "Proyeccion", "Huso", "Datum ", "Elipsoide", "Escala ", "Codigo Producto IGM", "Hipervinculo ", "Existencia Compra", "Cantidad Shp", "Cantidad JPG", "Cantidad Geotiff", "Cantidad Papel ", "nombre_limpio"], "visible": true}, {"id": "Cuadr_cula_5828533a_185e_4b17_b054_c3fb1b87f7b6", "name": "20 Km", "kind": "vector", "src": "data/layer_3.js", "dataVar": "GM_LAYER_3", "style": {"geom": "polygon", "mode": "single", "field": null, "single": {"fill": "#7423ff", "fillOpacity": 0.07, "stroke": "#000079", "weight": 3, "opacity": 1.0, "radius": 6}, "categories": []}, "popupFields": ["fid", "id", "left", "top", "right", "bottom", "row_index", "col_index"], "visible": true}, {"id": "OSM_Standard_85418605_fdd9_4240_90c0_969a8967c829", "name": "OSM Standard", "kind": "raster", "image": "data/raster_4.png", "bounds": [[-85.0511287798066, -180.0], [85.0511287798066, 179.99999999999997]], "opacity": 1.0, "visible": true}]};
+window.GM_CONFIG = {"title": "Existencia cartas", "description": "", "crsName": "EPSG:32719 — WGS 84 / UTM zone 19S", "basemap": "osm", "colors": {"primary": "#2c7fb8", "accent": "#f03b20"}, "logo": "assets/logo.jpg", "controls": {"zoom": true, "pan": true, "scale": true, "legend": true, "layers": true, "locate": true, "measure": true, "fullscreen": true, "minimap": true}, "bounds": [[-22.90007951268779, -77.01919061105825], [-14.329810886250351, -59.19341114725478]], "layers": [{"id": "Rehecho_f96c9dc6_16f7_4e1a_a5d3_347f618b3ac2", "name": "Rehecho", "kind": "vector", "src": "data/layer_0.js", "dataVar": "GM_LAYER_0", "style": {"geom": "point", "mode": "single", "field": null, "single": {"fill": "#c43c39", "fillOpacity": 1.0, "stroke": "#232323", "weight": 1, "opacity": 1.0, "radius": 4}, "categories": []}, "popupFields": ["fid", "nombre_limpio", "Nombre carta", "Existencia Compra", "Cantidad Shp", "Cantidad Geotiff", "Cantidad JPG", "Cantidad Papel ", "Seccion", "X_ESTE_MIN", "X_ESTE_MAX", "Y_NORTE_1_MIN", "Y_NORTE_1_MAX", "Proyeccion", "Id", "Huso", "Datum ", "Elipsoide", "Escala ", "Codigo Producto IGM", "Hipervinculo "], "roles": {"url": "Hipervinculo "}, "visible": true}, {"id": "Puntos_a_partir_de_tabla_1cce2b31_b699_4315_9b51_5b9cf4101773", "name": "Huso 18", "kind": "vector", "src": "data/layer_1.js", "dataVar": "GM_LAYER_1", "style": {"geom": "point", "mode": "single", "field": null, "single": {"fill": "#e6111f", "fillOpacity": 1.0, "stroke": "#232323", "weight": 1, "opacity": 1.0, "radius": 4}, "categories": []}, "popupFields": ["fid", "Nombre id", "Id", "Nombre carta", "Seccion", "X_ESTE_MIN", "X_ESTE_MAX", "Y_NORTE_1_MIN", "Y_NORTE_1_MAX", "Proyeccion", "Huso", "Datum ", "Elipsoide", "Escala ", "Codigo Producto IGM", "Existencia Compra", "Cantidad Shp", "Cantidad JPG", "Cantidad Geotiff", "Cantidad Papel "], "roles": {}, "visible": true}, {"id": "Puntos_a_partir_de_tabla_38b44a5f_75e2_4680_9c71_e8fc08d27897", "name": "Huso 19", "kind": "vector", "src": "data/layer_2.js", "dataVar": "GM_LAYER_2", "style": {"geom": "point", "mode": "single", "field": null, "single": {"fill": "#49d7a3", "fillOpacity": 1.0, "stroke": "#232323", "weight": 1, "opacity": 1.0, "radius": 5}, "categories": []}, "popupFields": ["fid", "Id", "Nombre carta", "Seccion", "X_ESTE_MIN", "X_ESTE_MAX", "Y_NORTE_1_MIN", "Y_NORTE_1_MAX", "Proyeccion", "Huso", "Datum ", "Elipsoide", "Escala ", "Codigo Producto IGM", "Hipervinculo ", "Existencia Compra", "Cantidad Shp", "Cantidad JPG", "Cantidad Geotiff", "Cantidad Papel ", "nombre_limpio"], "roles": {}, "visible": true}, {"id": "Cuadr_cula_5828533a_185e_4b17_b054_c3fb1b87f7b6", "name": "20 Km", "kind": "vector", "src": "data/layer_3.js", "dataVar": "GM_LAYER_3", "style": {"geom": "polygon", "mode": "single", "field": null, "single": {"fill": "#7423ff", "fillOpacity": 0.07, "stroke": "#000079", "weight": 3, "opacity": 1.0, "radius": 6}, "categories": []}, "popupFields": ["fid", "id", "left", "top", "right", "bottom", "row_index", "col_index"], "roles": {}, "visible": true}, {"id": "OSM_Standard_85418605_fdd9_4240_90c0_969a8967c829", "name": "OSM Standard", "kind": "raster", "image": "data/raster_4.png", "bounds": [[-85.0511287798066, -180.0], [85.0511287798066, 179.99999999999997]], "opacity": 1.0, "visible": true}]};
 
 
 (function () {
@@ -53,17 +53,59 @@ window.GM_CONFIG = {"title": "Existencia cartas", "description": "", "crsName": 
         };
     }
 
-    function popupHtml(feature, fields) {
+    function videoEmbed(url) {
+        var u = String(url);
+        var yt = u.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([\w-]{6,})/);
+        if (yt) {
+            return '<iframe class="gm-media" width="280" height="170" '
+                + 'src="https://www.youtube.com/embed/' + yt[1] + '" '
+                + 'frameborder="0" allowfullscreen></iframe>';
+        }
+        if (/vimeo\.com\/(\d+)/.test(u)) {
+            var vid = u.match(/vimeo\.com\/(\d+)/)[1];
+            return '<iframe class="gm-media" width="280" height="170" '
+                + 'src="https://player.vimeo.com/video/' + vid + '" '
+                + 'frameborder="0" allowfullscreen></iframe>';
+        }
+        return '<video class="gm-media" width="280" controls preload="none" src="'
+            + u + '"></video>';
+    }
+
+    function popupHtml(feature, lc) {
         if (!feature || !feature.properties) { return ''; }
+        var p = feature.properties;
+        var roles = lc.roles || {};
+        var skip = { '_gm': 1 };
+        if (roles.image) { skip[roles.image] = 1; }
+        if (roles.video) { skip[roles.video] = 1; }
+
         var rows = '';
+        var fields = lc.popupFields || [];
         for (var i = 0; i < fields.length; i++) {
             var k = fields[i];
-            if (k === '_gm') { continue; }
-            var val = feature.properties[k];
+            if (skip[k]) { continue; }
+            var val = p[k];
             if (val === null || val === undefined) { val = ''; }
+            if (roles.url && k === roles.url && String(val).trim()) {
+                var href = String(val).trim();
+                if (!/^https?:\/\//i.test(href)) { href = 'https://' + href; }
+                val = '<a href="' + href + '" target="_blank" rel="noopener" '
+                    + 'title="Se abrirá en una pestaña nueva">🔗 Abrir enlace ↗</a>'
+                    + '<div class="gm-hint">(se abre en otra pestaña)</div>';
+            }
             rows += '<tr><td class="k">' + k + '</td><td>' + String(val) + '</td></tr>';
         }
-        return '<table>' + rows + '</table>';
+
+        var media = '';
+        if (roles.image && p[roles.image]) {
+            media += '<a href="' + String(p[roles.image]) + '" target="_blank" '
+                + 'rel="noopener"><img class="gm-media" src="'
+                + String(p[roles.image]) + '" alt="imagen"></a>';
+        }
+        if (roles.video && p[roles.video]) {
+            media += videoEmbed(p[roles.video]);
+        }
+        return '<div class="gm-popup"><table>' + rows + '</table>' + media + '</div>';
     }
 
     // --- Capas ---
@@ -92,8 +134,8 @@ window.GM_CONFIG = {"title": "Existencia cartas", "description": "", "crsName": 
                     });
                 },
                 onEachFeature: function (f, lyr) {
-                    var html = popupHtml(f, lc.popupFields || []);
-                    if (html) { lyr.bindPopup(html); }
+                    var html = popupHtml(f, lc);
+                    if (html) { lyr.bindPopup(html, { maxWidth: 320 }); }
                 }
             });
         }

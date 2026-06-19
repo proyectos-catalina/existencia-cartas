@@ -6,7 +6,10 @@
     <meta name="description" content=""/>
     <title>Existencia cartas</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-measure@3.1.0/dist/leaflet-measure.css"/>
     <link rel="stylesheet" href="https://unpkg.com/leaflet-fullscreen@1.0.2/dist/leaflet.fullscreen.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-minimap@3.6.1/dist/Control.MiniMap.min.css"/>
     <style>
         :root { --gm-primary: #2c7fb8; --gm-accent: #f03b20; }
         html, body { margin: 0; padding: 0; height: 100%; font-family: system-ui, Arial, sans-serif; }
@@ -40,13 +43,21 @@
         .leaflet-popup-content table { border-collapse: collapse; font-size: 12px; }
         .leaflet-popup-content td { border-bottom: 1px solid #eee; padding: 2px 6px; vertical-align: top; }
         .leaflet-popup-content td.k { font-weight: 600; color: var(--gm-primary); }
+        .gm-popup { max-height: 60vh; overflow: auto; }
+        .gm-media { display: block; max-width: 290px; width: 100%; margin: 8px auto 2px;
+            border-radius: 4px; }
+        .gm-hint { font-size: 10px; color: #888; }
+        .leaflet-popup-content a { color: var(--gm-primary); font-weight: 600; text-decoration: none; }
         .leaflet-bar a { color: var(--gm-primary); }
     </style>
 </head>
 <body>
     <div id="map"></div>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js"></script>
+    <script src="https://unpkg.com/leaflet-measure@3.1.0/dist/leaflet-measure.js"></script>
     <script src="https://unpkg.com/leaflet-fullscreen@1.0.2/dist/Leaflet.fullscreen.min.js"></script>
+    <script src="https://unpkg.com/leaflet-minimap@3.6.1/dist/Control.MiniMap.min.js"></script>
     <script src="data/layer_0.js"></script>
     <script src="data/layer_1.js"></script>
     <script src="data/layer_2.js"></script>
